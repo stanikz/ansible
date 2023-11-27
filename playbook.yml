@@ -1,6 +1,6 @@
 ---
 - name: Update and Upgrade all package
-  hosts: localhost
+  hosts: all
 
   tasks:
   - name: Update apt-get repo and cache
